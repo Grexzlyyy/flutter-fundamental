@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pml/basic_widget/image_widget.dart';
 import 'package:pml/basic_widget/input_widget.dart';
 import 'package:pml/basic_widget/text_widget.dart';
+import 'package:pml/pages/google_map_review.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const MyHomePage(title: 'Daftar Akun Stimata'),
+      home: const GoogleMapReview(),
       
     );
   }
